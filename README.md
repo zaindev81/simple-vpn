@@ -37,11 +37,13 @@ uuid = { version = "1.0", features = ["v4"] }
 ```
 
 2. **Run the server**:
+
 ```bash
 cargo run -- server --bind 0.0.0.0:8080
 ```
 
 3. **Connect a client**:
+
 ```bash
 cargo run -- client --server 127.0.0.1:8080
 ```
